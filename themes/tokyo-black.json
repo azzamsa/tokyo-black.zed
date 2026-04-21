@@ -47,9 +47,9 @@
         "icon.disabled": "#9da8d2ff",
         "icon.placeholder": "#636da6",
         "icon.accent": "#fca7eaff",
-        "status_bar.background": "#1e2030",
+        "status_bar.background": "#191b29",
         "title_bar.background": "#000000",
-        "title_bar.inactive_background": "#1e2030",
+        "title_bar.inactive_background": "#191b29",
         "toolbar.background": "#1e2030",
         "tab_bar.background": "#000000ff",
         "tab.inactive_background": "#000000ff",
@@ -67,7 +67,7 @@
         "editor.background": "#000000ff",
         "editor.gutter.background": "#000000ff",
         "editor.subheader.background": "#222436",
-        "editor.active_line.background": "#2f334d",
+        "editor.active_line.background": "#191b29",
         "editor.highlighted_line.background": "#1e202e",
         "editor.line_number": "#828bb8ff",
         "editor.active_line_number": "#fca7eaff",
@@ -151,7 +151,7 @@
           {
             "cursor": "#fca7eaff",
             "background": "#000000ff",
-            "selection": "#267ead3d"
+            "selection": "#292e42"
           }
         ],
         "syntax": {
