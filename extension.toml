@@ -3,5 +3,5 @@ name = "Tokyo Black Themes"
 version = "0.1.0"
 schema_version = 1
 authors = ["azzamsa <noreply@azzamsa.com>"]
-description = "Tokyo Black Themes"
+description = "A high-contrast variant of the popular Tokyo Night theme, built for WCAG AAA compliance."
 repository = "https://github.com/azzamsa/tokyo-black.zed"

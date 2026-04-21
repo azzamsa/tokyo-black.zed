@@ -1,0 +1,23 @@
+[tools]
+go-jsonnet = "latest"
+
+[env]
+JSONNET_PATH = "src"
+
+[tasks.qq]
+description = "Quality check"
+depends = ["build"]
+
+[tasks.build]
+alias = "b" # build
+description = "Compile themes"
+run = "jsonnet src/theme.jsonnet > themes/tokyo-black.json"
+
+[tasks.watch]
+alias = "d" # develop
+description = "Watch and compile themes on changes"
+run = "mise watch build --watch src"
+
+[tasks.meta]
+description = "Dependency analysis"
+run = ["pnpx actions-up", "actionlint", "zizmor .github/workflows/*"]
